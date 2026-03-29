@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 320" width="220" height="320">
+  <title>Cartoon man in suit running with money</title>
+
+  <!-- Shadow -->
+  <ellipse cx="115" cy="310" rx="45" ry="8" fill="#ccc" opacity="0.5"/>
+
+  <!-- Left leg (back, bent forward) -->
+  <g transform="rotate(-30, 110, 230)">
+    <rect x="97" y="228" width="16" height="55" rx="7" fill="#1a237e"/>
+    <!-- Left shoe (back) -->
+    <ellipse cx="98" cy="284" rx="14" ry="7" fill="#111" transform="rotate(10, 98, 284)"/>
+  </g>
+
+  <!-- Right leg (front, bent back) -->
+  <g transform="rotate(25, 125, 230)">
+    <rect x="112" y="228" width="16" height="55" rx="7" fill="#1a237e"/>
+    <!-- Right shoe (front) -->
+    <ellipse cx="128" cy="284" rx="16" ry="7" fill="#111" transform="rotate(-15, 128, 284)"/>
+  </g>
+
+  <!-- Body / suit jacket -->
+  <rect x="85" y="160" width="60" height="80" rx="12" fill="#1a237e"/>
+
+  <!-- White shirt / tie area -->
+  <polygon points="110,163 118,163 122,230 106,230" fill="#fff"/>
+
+  <!-- Tie -->
+  <polygon points="112,167 116,167 119,210 114,215 109,210" fill="#c62828"/>
+
+  <!-- Suit lapels -->
+  <polygon points="85,163 110,163 100,195 85,185" fill="#283593"/>
+  <polygon points="145,163 118,163 128,195 145,185" fill="#283593"/>
+
+  <!-- Left arm (swinging back) -->
+  <g transform="rotate(40, 85, 175)">
+    <rect x="72" y="168" width="14" height="50" rx="6" fill="#1a237e"/>
+    <!-- Left hand -->
+    <circle cx="79" cy="220" r="8" fill="#ffe0b2"/>
+  </g>
+
+  <!-- Right arm (swinging forward) -->
+  <g transform="rotate(-50, 145, 175)">
+    <rect x="138" y="168" width="14" height="50" rx="6" fill="#1a237e"/>
+    <!-- Right hand -->
+    <circle cx="145" cy="220" r="8" fill="#ffe0b2"/>
+  </g>
+
+  <!-- Pocket on left side of jacket (right side of figure) -->
+  <rect x="86" y="210" width="22" height="14" rx="3" fill="#283593" stroke="#3949ab" stroke-width="1"/>
+
+  <!-- Money sticking out of pocket -->
+  <!-- Bill 1 -->
+  <rect x="88" y="198" width="18" height="14" rx="2" fill="#4caf50" transform="rotate(-15, 97, 205)"/>
+  <rect x="91" y="200" width="12" height="10" rx="1" fill="#388e3c" transform="rotate(-15, 97, 205)"/>
+  <text x="93" y="208" font-size="5" fill="#c8e6c9" transform="rotate(-15, 97, 205)" font-family="Arial, sans-serif">$100</text>
+
+  <!-- Bill 2 -->
+  <rect x="92" y="196" width="18" height="14" rx="2" fill="#66bb6a" transform="rotate(5, 101, 203)"/>
+  <rect x="95" y="198" width="12" height="10" rx="1" fill="#43a047" transform="rotate(5, 101, 203)"/>
+  <text x="97" y="206" font-size="5" fill="#e8f5e9" transform="rotate(5, 101, 203)" font-family="Arial, sans-serif">$100</text>
+
+  <!-- Bill 3 -->
+  <rect x="90" y="194" width="18" height="13" rx="2" fill="#81c784" transform="rotate(20, 99, 200)"/>
+
+  <!-- Neck -->
+  <rect x="105" y="140" width="18" height="25" rx="6" fill="#ffe0b2"/>
+
+  <!-- Head -->
+  <ellipse cx="114" cy="118" rx="32" ry="35" fill="#ffe0b2"/>
+
+  <!-- Ear left -->
+  <ellipse cx="83" cy="120" rx="7" ry="9" fill="#ffe0b2"/>
+  <!-- Ear right -->
+  <ellipse cx="145" cy="120" rx="7" ry="9" fill="#ffe0b2"/>
+
+  <!-- Hair (receding / short grey-brown) -->
+  <ellipse cx="114" cy="90" rx="30" ry="16" fill="#8d6e63"/>
+  <!-- Bald top highlight -->
+  <ellipse cx="114" cy="88" rx="18" ry="9" fill="#ffe0b2" opacity="0.6"/>
+
+  <!-- Eyes (wide open, looking back) -->
+  <!-- Left eye -->
+  <ellipse cx="101" cy="115" rx="7" ry="7" fill="white"/>
+  <circle cx="103" cy="115" r="4" fill="#37474f"/>
+  <circle cx="104" cy="113" r="1.5" fill="white"/>
+  <!-- Right eye -->
+  <ellipse cx="125" cy="115" rx="7" ry="7" fill="white"/>
+  <circle cx="127" cy="115" r="4" fill="#37474f"/>
+  <circle cx="128" cy="113" r="1.5" fill="white"/>
+
+  <!-- Eyebrows (raised — worried/panicked look) -->
+  <path d="M94,107 Q101,101 108,106" stroke="#5d4037" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M118,106 Q125,101 132,107" stroke="#5d4037" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <ellipse cx="114" cy="125" rx="4" ry="3" fill="#ffcc99"/>
+
+  <!-- Mouth (open, panicked) -->
+  <path d="M104,135 Q114,143 124,135" stroke="#c62828" stroke-width="2" fill="#f8bbd0" stroke-linecap="round"/>
+
+  <!-- Sweat drops (panicked running) -->
+  <path d="M148,100 Q151,95 149,91" stroke="#90caf9" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M153,112 Q156,107 154,103" stroke="#90caf9" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Speed lines behind figure -->
+  <line x1="60" y1="170" x2="15" y2="168" stroke="#bbb" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="58" y1="185" x2="10" y2="182" stroke="#bbb" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="62" y1="200" x2="18" y2="200" stroke="#bbb" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="65" y1="215" x2="20" y2="218" stroke="#bbb" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Caption -->
+  <text x="110" y="15" text-anchor="middle" font-size="13" font-family="Arial, sans-serif" font-weight="bold" fill="#1a237e">💰 Stikker av! 💨</text>
+</svg>
